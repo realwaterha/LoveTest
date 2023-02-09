@@ -42,9 +42,9 @@ class MainFragment : Fragment() {
 
         navController = Navigation.findNavController(view)
 
-
-
-
+        binding.btnNext.setOnClickListener {
+            navController.navigate(R.id.action_mainFragment_to_questionFragment)
+        }
     }
 
     companion object {
