@@ -1,7 +1,18 @@
 <resources>
     <string name="app_name">LoveTest</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="main_title">Let\'s find out\nyour love type !</string>
-    <string name="question">There were favorite flowers\nin the flower base.\nAs time goes, the flwoers\nhave all withered.\nWhat are you going to do with that?</string>
+    <string name="question">There were favorite flowers in the flower base. As time goes, the flwoers have all withered. What are you going to do with that?</string>
+    <string name="option_1_main">You\'re a QUTTER !</string>
+    <string name="option_1_sub">You Can let the person easily.</string>
+    <string name="option_2_main">You should focus on yourself</string>
+    <string name="option_2_sub">You become really clingy to your ex.</string>
+    <string name="option_3_main">You should take it easy</string>
+    <string name="option_3_sub">You Can do crasy things no matter what it takes</string>
+    <string name="option_4_main">You are pretty mature</string>
+    <string name="option_4_sub">You Can easily accept the break-up.</string>
+    <string name="selection_1">1. Throw it away.</string>
+    <string name="selection_2">2. Water the flowers.</string>
+    <string name="selection_3">3. Cut it off with sissors.</string>
+    <string name="selection_4">4. Make them as drier flower.</string>
 </resources>

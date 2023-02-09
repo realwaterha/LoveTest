@@ -27,7 +27,7 @@
             android:background="@drawable/selection"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:text="1. Throw io away."
+            android:text="@string/selection_1"
             android:gravity="center"
             />
         <TextView
@@ -38,7 +38,7 @@
             android:background="@drawable/selection"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:text="2. Water the flowers."
+            android:text="@string/selection_2"
             android:gravity="center"
             />
         <TextView
@@ -49,7 +49,7 @@
             android:background="@drawable/selection"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:text="3. Cut it off with sissoers."
+            android:text="@string/selection_3"
             android:gravity="center"
             />
         <TextView
@@ -60,7 +60,7 @@
             android:background="@drawable/selection"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:text="4. Make them as dried flowers."
+            android:text="@string/selection_4"
             android:gravity="center"
             />
     </LinearLayout>

@@ -51,20 +51,20 @@ class ResultFragment : Fragment() {
     fun setResult(option: Int) {
         when (option) {
             1 -> {
-                binding.tvMain.text = "You're a QUTTER !"
-                binding.tvSub.text = "You Can let the person easily."
+                binding.tvMain.text = resources.getString(R.string.option_1_main)
+                binding.tvSub.text = resources.getString(R.string.option_1_sub)
             }
             2 -> {
-                binding.tvMain.text = "You should focus on yourself"
-                binding.tvSub.text = "You become really clingy to your ex."
+                binding.tvMain.text = resources.getString(R.string.option_2_main)
+                binding.tvSub.text = resources.getString(R.string.option_2_sub)
             }
             3 -> {
-                binding.tvMain.text = "You should take it easy"
-                binding.tvSub.text = "You Can do crasy things no matter what it takes"
+                binding.tvMain.text = resources.getString(R.string.option_3_main)
+                binding.tvSub.text = resources.getString(R.string.option_3_sub)
             }
             4 -> {
-                binding.tvMain.text = "You are pretty mature"
-                binding.tvSub.text = "You Can easily accept the break-up."
+                binding.tvMain.text = resources.getString(R.string.option_4_main)
+                binding.tvSub.text = resources.getString(R.string.option_4_sub)
             }
         }
     }
